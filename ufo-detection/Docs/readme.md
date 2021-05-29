@@ -17,7 +17,7 @@ Once you find the location of the UFO's, you need to crop that part and pass it 
 **Install requirements**
 
 ````
-conda env create -f environment.yml (to run assigment fllow this step to set-up environment)
+conda env create -f environment.yml (to run this assigment follow this step to set-up environment)
 pip3 install -r requirements.txt
 ````
 
