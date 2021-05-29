@@ -78,8 +78,8 @@ class Localize:
                                 10: {'id': 10, 'name': '0'}
                             }
         self.IMAGE_SIZE = (12, 8)
-        # self.model_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "frozen_inference_graph.pb")#'./preprocess/data/frozen_inference_graph.pb'
-        self.model_path = '/home/shabaz/Documents/misc/smarcow/spacy/preprocess/data/frozen_inference_graph.pb'
+        self.model_path =  './preprocess/data/frozen_inference_graph.pb'
+        # self.model_path = '/home/shabaz/Documents/misc/smarcow/spacy/preprocess/data/frozen_inference_graph.pb'
         self.model_labels = './data/saved_model.pbtxt'
         self.trained = False
         self.detection_graph = None
